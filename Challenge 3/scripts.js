@@ -14,7 +14,7 @@ const owed = Math.abs(parseFloat(leoBalance)) + Math.abs(parseFloat(sarahBalance
 const leo = `${leoName} ${leoSurname.trim()} (Owed: R ${Math.abs(parseFloat(leoBalance)).toFixed(2)})`;
 const sarah = `${sarahName.trim()} ${sarahSurname} (Owed: R ${Math.abs(parseFloat(sarahBalance)).toFixed(2)})`;
 
-const total = `  Total amount owed: R ${owed.toFixed(2)}`;
+const total = `  Total amount owed: R ${owed.toFixed(2)}  `;
 
 const result = `\n\n${leo}\n${sarah}\n\n${divider}\n${total}\n${divider}\n`;
 
